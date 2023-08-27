@@ -1,6 +1,6 @@
 <div class="grid grid-cols-1 grid-rows-1 min-h-[calc(100vh-6rem)]">
   <!-- <img src="sillouhete.png" class="col-start-1 row-start-1 justify-self-end"/> -->
-  <div class="col-start-1 row-start-1 overflow-x-hidden justify-self-end [mask-image:url(sillouhete.png)] [mask-size:cover] blob-1 w-full md:w-auto md:h-full aspect-[1000/741] -z-10 lg:z-10"/>
+  <div class="col-start-1 row-start-1 overflow-x-hidden justify-self-end [mask-image:url('/sillouhete.png')] [mask-size:cover] blob-1 w-full md:w-auto md:h-full aspect-[1000/741] -z-10 lg:z-10"/>
   <h1 class="text-8xl md:text-left md:text-[15vh] lg:text-[31vh] md:leading-[0.9] font-extrabold col-start-1 row-start-1 select-none">Triple<br /> <span class="relative z-20 italic">Fault</span><br />Robotics</h1>
 </div>
 
