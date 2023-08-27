@@ -1,1 +1,1 @@
-let prerender = true;
+export const prerender = true;
