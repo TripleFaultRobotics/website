@@ -1,6 +1,18 @@
 <script>
   import "../app.css";
   import HoverDecryptText from "$lib/components/HoverDecryptText.svelte"
+  import Lenis from '@studio-freight/lenis'
+  import { onMount } from 'svelte';
+  onMount(() => {
+    const lenis = new Lenis()
+
+    function raf(time) {
+      lenis.raf(time)
+      requestAnimationFrame(raf)
+    }
+
+    requestAnimationFrame(raf)
+  })
 </script>
 
 
@@ -11,7 +23,7 @@
       <li><a href="/team" class="hover:underline"><HoverDecryptText content="TEAM"/></a></li>
       <li><a href="/contact" class="hover:underline"><HoverDecryptText content="CONTACT"/></a></li>
     </ul>
-    <p class="ml-auto text-orange-500 font-mono"><span class="font-bold">NEWS:</span> Hey look a sick website!</p>
+    <a class="ml-auto text-orange-500 font-mono hover:underline" href="/timeline"><span class="font-bold">NEWS:</span> A new website.</a>
   </nav>
 </header>
 
