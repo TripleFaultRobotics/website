@@ -1,6 +1,6 @@
 <script>
   import Card from "$lib/components/Card.svelte"
-  const titleClasses = "before:w-4 before:h-4 before:bg-neutral-950 before:border-2 before:rounded-full before:border-orange-500 before:absolute before:-left-[2.61rem] before:top-[6px] relative text-xl font-semibold"
+  const titleClasses = "before:w-4 before:h-4 before:bg-stone-800 before:border-2 before:rounded-full before:border-orange-300 before:absolute before:-left-[2.61rem] before:top-[6px] relative text-xl font-semibold"
   const dateClasses = "font-medium text-stone-400"
 </script>
 <h1 class="text-6xl font-extrabold mb-8 text-center">Timeline</h1>
