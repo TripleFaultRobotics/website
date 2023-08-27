@@ -1,7 +1,7 @@
 <script>
   let alphabet = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*()-=_+[]{}|\\;:'\",.<>?/`~".split('')
   export let content = "";
-  export let duration = 1000; // ms
+  export let duration = 2000; // time until guarenteed complete (ms)
   let text = content;
   let animProgress = 0;
   let stop = false;
@@ -25,7 +25,15 @@
     if (animProgress/duration >= 1) cancelAnim();
     if (stop) return;
     animProgress += dt;
-    text = content.split('').map(c => Math.random() < animProgress/duration ? c : randomChar()).join("");
+    text = content.split('').map((c, i) => {
+      if (Math.random() < animProgress/duration || text[i] === c) {
+        return c
+      } else if (Math.random() < 0.10) {
+        return randomChar();
+      } else {
+        return text[i]
+      }
+    }).join("");
     lastTime = time;
     requestAnimationFrame(anim)
   }
