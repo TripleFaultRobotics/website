@@ -26,6 +26,7 @@
   },
   "type": "module",
   "dependencies": {
-    "@studio-freight/lenis": "^1.0.19"
+    "@studio-freight/lenis": "^1.0.19",
+    "motion": "^10.16.2"
   }
 }
