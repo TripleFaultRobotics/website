@@ -8,6 +8,11 @@
 <div class="max-w-[50rem] m-auto">
   <div class="border-l-2 border-dashed border-white flex gap-8 flex-col">
     <Card class="ml-4 grow">
+      <h2 class={titleClasses}>First Pixel Scored</h2>
+      <h3 class={dateClasses}>October 15, 2023</h3>
+      <p class="mt-2">Our robot scored its first pixel :)</p>
+    </Card>
+    <Card class="ml-4 grow">
       <h2 class={titleClasses}>A New Website</h2>
       <h3 class={dateClasses}>Aug 26, 2023</h3>
       <p class="mt-2">During our weekly meeting, Aiden started work on this website. Over the course of the meeting the front page, team page, and timeline page were finished.</p>

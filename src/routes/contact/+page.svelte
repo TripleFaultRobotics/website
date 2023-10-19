@@ -1,9 +1,11 @@
 <script>
-    import Card from "$lib/components/Card.svelte"
-  </script>
-  
-  <h1 class="text-6xl font-extrabold mb-8">Contact and Media</h1>
-  <Card class="sm:w-96">
-    <h3 class="font-bold text-xl text-center">Email</h3>
-    <h4 class="font-medium text-stone-400 mb-2 text-center">kirill@lutsenko.com</h4>
-  </Card>
+  import Card from "$lib/components/Card.svelte";
+  import { Mail } from "lucide-svelte"
+</script>
+
+<h1 class="mb-8 text-6xl font-extrabold text-center">Contact</h1>
+<div class="max-w-[85ch] m-auto">
+  <h3 class="text-xl font-bold"><Mail class="inline mr-1" size={20} strokeWidth={2.5} />Email: 
+    <a href="mailto:team@3fault.com" class="font-normal hover:-translate-y-0.5 active:translate-y-1 transition-transform inline-block"><Card class="py-1 px-3">team@3fault.com</Card></a>
+  </h3>
+</div>

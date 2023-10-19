@@ -885,6 +885,11 @@ locate-path@^5.0.0:
   dependencies:
     p-locate "^4.1.0"
 
+lucide-svelte@^0.279.0:
+  version "0.279.0"
+  resolved "https://registry.yarnpkg.com/lucide-svelte/-/lucide-svelte-0.279.0.tgz#4ab3f6724b64e8dbb58571cf68b01ca3a4d757a7"
+  integrity sha512-u9j8tMPxWsv5iXJvrUU/jpyML/k49flr7440UE8QM9V3u0OZt5+qaY5TMiPDTVRMdEELBg4d4ueW1+3Mo3VT4A==
+
 magic-string@^0.27.0:
   version "0.27.0"
   resolved "https://registry.yarnpkg.com/magic-string/-/magic-string-0.27.0.tgz#e4a3413b4bab6d98d2becffd48b4a257effdbbf3"
