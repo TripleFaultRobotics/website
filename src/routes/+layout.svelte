@@ -27,7 +27,7 @@
       <li><a href="{base}/team" class="hover:underline hover:opacity-75"><HoverDecryptText content="TEAM"/></a></li>
       <li><a href="{base}/contact" class="hover:underline hover:opacity-75"><HoverDecryptText content="CONTACT"/></a></li>
     </ul>
-    <a class="ml-auto font-mono text-orange-300 hover:underline hover:opacity-75" href="{base}/timeline"><span class="font-bold">NEWS:</span> First pixel scored.</a>
+    <a class="ml-auto font-mono text-orange-300 hover:underline hover:opacity-75" href="{base}/timeline"><span class="font-bold">NEWS:</span> Welcome One Inc!</a>
   </nav>
 </header>
 
