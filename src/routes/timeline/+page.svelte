@@ -9,7 +9,7 @@
   <div class="border-l-2 border-dashed border-white flex gap-8 flex-col">
     <Card class="ml-4 grow">
       <h2 class={titleClasses}>Welcome One Inc!</h2>
-      <h3 class={dateClasses}>October 15, 2023</h3>
+      <h3 class={dateClasses}>November 4, 2023</h3>
       <p class="mt-2">We welcome our first corporate sponsor, One Inc - The Leading Digital Payments Network
 for the Insurance Industry!</p>
     </Card>
