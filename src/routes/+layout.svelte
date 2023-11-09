@@ -19,6 +19,17 @@
 </script>
 
 <svelte:document on:scroll={() => atTop = document.documentElement.scrollTop === 0} />
+<svelte:head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-KG2ETJKJEL"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-KG2ETJKJEL');
+  </script> 
+</svelte:head>
 
 <header>
   <nav id="navbar" class="transition-all border flex flex-row py-2 px-4 my-3 mx-4 rounded-lg gap-2 backdrop-blur-md fixed h-16 w-[calc(100%-2rem)] items-center z-50 {atTop ? "border-stone-800/0" : "border-stone-600/75 bg-stone-700/75"}">
