@@ -3,7 +3,7 @@
 </script>
 
 <h1 class="mb-8 text-6xl font-extrabold text-center">Our Team</h1>
-<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 max-w-[72rem] mx-8 lg:mx-auto">
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 max-w-[72rem] lg:mx-auto">
   <div class="grid gap-2 h-fit">
     <Card class="w-full">
       <h3 class="text-xl font-bold text-center">Sergey Lutsenko</h3>

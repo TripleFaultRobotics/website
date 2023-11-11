@@ -1,4 +1,5 @@
 <script lang="ts">
+  import { base } from "$app/paths";
   import { stagger, timeline } from "motion";
   import { onMount } from "svelte";
 
@@ -19,21 +20,22 @@
 </script>
 
 <div
-  class="grid grid-cols-1 grid-rows-1 min-h-[calc(100vh-6rem)] overflow-y-hidden"
+  class="grid grid-cols-1 grid-rows-1 min-h-[calc(100vh-6rem)] overflow-hidden items-center"
 >
   <div
     id="hero-robot"
-    class="grayscale col-start-1 row-start-1 overflow-x-hidden justify-self-end [mask-image:url('/sillouhete.png')] [mask-size:cover] blob-1 w-full md:w-auto md:h-full aspect-[1000/741] -z-10 lg:z-10"
+    class="grayscale col-start-1 row-start-1 overflow-x-hidden justify-self-center md:translate-x-[10%] [mask-image:url('/sillouhete.png')] [mask-size:cover] blob-1 w-full md:w-auto md:h-full aspect-[1000/741] -z-10 lg:z-10"
   />
   <h1
-    class="text-8xl md:text-left md:text-[15vh] lg:text-[31vh] md:leading-[0.9] font-extrabold col-start-1 row-start-1 select-none"
+    class="text-7xl text-center sm:text-[7rem] md:text-left md:text-[20vh] lg:text-[31vh] md:leading-[0.9] font-extrabold col-start-1 row-start-1 select-none"
   >
     <span class="inline-block opacity-0 hero-text">Triple</span><br />
     <span class="relative z-20 inline-block italic opacity-0 hero-text"
       >Fault</span
     ><br />
-    <span class="inline-block opacity-0 hero-text">Robotics</span>
+    <span class="inline-block opacity-0 hero-text ">Robotics</span>
   </h1>
+  <img src="{base}/23251.svg" class="col-start-1 row-start-1 min-h-[calc(100vh-6rem)] opacity-10 self-end -z-20 justify-self-end" alt="Triple Fault Logo"/>
 </div>
 
 <style>
