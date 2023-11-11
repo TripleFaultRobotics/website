@@ -40,6 +40,11 @@ for the Insurance Industry!</p>
     <Card class="ml-4 grow">
       <h2 class={titleClasses}>Triple Fault was Founded</h2>
       <h3 class={dateClasses}>Dec 2, 2022</h3>
+      <p class="mt-3 text-lg leading-none pl-2 border-l-2 border-stone-100/50">
+        <span class="font-bold">triple fault</span><br  class="mb-1"/>
+        <span class="text-stone-300 text-sm">&sol;ˈtrip(ə)l • fôlt&sol;</span><br class="mb-3"/>
+        <span class="leading-snug text-base">A triple fault is usually a sign that the exception handler called is faulty, or worse, that the whole exception handling in your system is screwed up.</span>
+      </p>
     </Card>
   </div>
 </div>

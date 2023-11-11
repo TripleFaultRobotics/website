@@ -29,11 +29,9 @@
   <h1
     class="text-7xl text-center sm:text-[7rem] md:text-left md:text-[20vh] lg:text-[31vh] md:leading-[0.9] font-extrabold col-start-1 row-start-1 select-none"
   >
-    <span class="inline-block opacity-0 hero-text">Triple</span><br />
-    <span class="relative z-20 inline-block italic opacity-0 hero-text"
-      >Fault</span
-    ><br />
-    <span class="inline-block opacity-0 hero-text ">Robotics</span>
+    <span class="inline-block opacity-0 hero-text w-full">Triple</span><br />
+    <span class="relative z-20 inline-block italic opacity-0 hero-text w-full">Fault</span><br />
+    <span class="inline-block opacity-0 hero-text w-full">Robotics</span>
   </h1>
   <img src="{base}/23251.svg" class="col-start-1 row-start-1 min-h-[calc(100vh-6rem)] opacity-10 self-end -z-20 justify-self-end" alt="Triple Fault Logo"/>
 </div>
