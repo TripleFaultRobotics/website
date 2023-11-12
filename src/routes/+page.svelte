@@ -41,7 +41,7 @@
   <img src="{base}/23251.svg" id="team-num" class="col-start-1 row-start-1 min-h-[calc(100vh-6rem)] opacity-10 self-end -z-20 justify-self-end" alt="Triple Fault Logo"/>
 </div>
 <section class="mt-16">
-  <h2 class="text-5xl md:text-7xl lg:text-8xl">We're a 
+  <h2 class="text-5xl md:text-7xl lg:text-8xl [text-wrap:balance]">We're a 
     <span class="italic">passionate</span> 
     <a href="/team" class="hover:underline text-orange-200">team of makers</a> from 
     <a class="hover:underline text-orange-200" target="_blank" href="https://maps.app.goo.gl/wppixHc8DqTZcEc2A">San Diego</a>.
@@ -53,9 +53,12 @@
     <MoveRight class="inline mr-2" />Contact us at <span class="font-mono bg-orange-200/20 rounded px-1">team@3fault.com</span>
   </a>
 </section>
-<section class="mt-16">
+<section class="mt-8">
   <h1 class="mb-8 text-6xl font-extrabold text-center">Sponsors</h1>
-  <img src="{base}/sponsors/oneinc.svg" />
+  <div class="grid grid-rows-2 mx-4 sm:grid-rows-1 sm:grid-cols-2 max-w-[65rem] sm:m-auto items-center">
+    <a href="https://www.oneinc.com" target="_blank" class="grayscale hover:grayscale-0 transition brightness-[1000%] hover:brightness-200"><img src="{base}/sponsors/oneinc.svg" /></a>
+    <img src="{base}/sponsors/hdn.svg" />
+  </div>
 </section>
 
 <style>
