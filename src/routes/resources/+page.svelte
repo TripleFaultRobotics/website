@@ -10,6 +10,7 @@
   <Card class="w-full cursor-not-allowed">
     <img src={pixelDrop} class="h-32 w-full object-contain bg-[#231124] rounded-md" slot="banner" />
     <h3 class="font-bold text-2xl">Pixel Drop</h3>
+    <h4 class="mb-2 font-medium text-stone-400">By: Ryan Yuan</h4>
     <p>A simple and elegant purple pixel drop design. Coming Soon...</p>
   </Card>
 

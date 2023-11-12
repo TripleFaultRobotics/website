@@ -1,6 +1,8 @@
 <script lang="ts">
   import { base } from "$app/paths";
-  import { stagger, timeline } from "motion";
+  import HoverDecryptText from "$lib/components/HoverDecryptText.svelte"
+  import { animate, stagger, timeline, scroll } from "motion";
+  import { MoveRight } from "lucide-svelte";
   import { onMount } from "svelte";
 
   onMount(() => {
@@ -16,11 +18,14 @@
         { duration: 4, at: "-0.4" },
       ],
     ]);
+    scroll(animate("#team-num", { y: [0, 200] }, {
+      target: "#team-num"
+    }))
   });
 </script>
 
 <div
-  class="grid grid-cols-1 grid-rows-1 min-h-[calc(100vh-6rem)] overflow-hidden items-center"
+  class="grid grid-cols-1 grid-rows-1 min-h-[calc(100vh-6rem)] items-center"
 >
   <div
     id="hero-robot"
@@ -33,8 +38,25 @@
     <span class="relative z-20 inline-block italic opacity-0 hero-text w-full">Fault</span><br />
     <span class="inline-block opacity-0 hero-text w-full">Robotics</span>
   </h1>
-  <img src="{base}/23251.svg" class="col-start-1 row-start-1 min-h-[calc(100vh-6rem)] opacity-10 self-end -z-20 justify-self-end" alt="Triple Fault Logo"/>
+  <img src="{base}/23251.svg" id="team-num" class="col-start-1 row-start-1 min-h-[calc(100vh-6rem)] opacity-10 self-end -z-20 justify-self-end" alt="Triple Fault Logo"/>
 </div>
+<section class="mt-16">
+  <h2 class="text-5xl md:text-7xl lg:text-8xl">We're a 
+    <span class="italic">passionate</span> 
+    <a href="/team" class="hover:underline text-orange-200">team of makers</a> from 
+    <a class="hover:underline text-orange-200" target="_blank" href="https://maps.app.goo.gl/wppixHc8DqTZcEc2A">San Diego</a>.
+  </h2>
+  <a class="text-xl lg:text-2xl mt-4 hover:underline hover:translate-x-4 transition block w-fit" href="/resources">
+    <MoveRight class="inline mr-2" />Check out our free resources for FTC
+  </a>
+  <a class="text-xl lg:text-2xl mt-2 hover:underline hover:translate-x-4 transition block w-fit" href="mailto:team@3fault.com">
+    <MoveRight class="inline mr-2" />Contact us at <span class="font-mono bg-orange-200/20 rounded px-1">team@3fault.com</span>
+  </a>
+</section>
+<section class="mt-16">
+  <h1 class="mb-8 text-6xl font-extrabold text-center">Sponsors</h1>
+  <img src="{base}/sponsors/oneinc.svg" />
+</section>
 
 <style>
   .blob-1 {
