@@ -10,6 +10,11 @@
     <Card class="ml-4 grow">
       <h2 class={titleClasses}>Welcome One Inc!</h2>
       <h3 class={dateClasses}>November 4, 2023</h3>
+      <p class="mt-2"><a class="underline" target="_blank" href="https://www.youtube.com/watch?v=qbQz5shmp4c">It's here.</a></p>
+    </Card>
+    <Card class="ml-4 grow">
+      <h2 class={titleClasses}>Welcome One Inc!</h2>
+      <h3 class={dateClasses}>November 4, 2023</h3>
       <p class="mt-2">We welcome our first corporate sponsor, <a href="https://www.oneinc.com/" class="underline" target="_blank">One Inc</a> - The Leading Digital Payments Network for the Insurance Industry!</p>
     </Card>
     <Card class="ml-4 grow">

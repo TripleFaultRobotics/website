@@ -21,6 +21,9 @@
     scroll(animate("#team-num", { y: [0, 200] }, {
       target: "#team-num"
     }))
+    scroll(animate("#hero-robot", { y: [0, 72] }, {
+      target: "#team-num"
+    }))
   });
 </script>
 
@@ -53,6 +56,7 @@
     <MoveRight class="inline mr-2" />Contact us at <span class="font-mono bg-orange-200/20 rounded px-1">team@3fault.com</span>
   </a>
 </section>
+<iframe class="w-full aspect-[1280/548] mt-8" src="https://www.youtube-nocookie.com/embed/qbQz5shmp4c?si=RiGhRH4v4pNKdrD1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 <section class="mt-8">
   <h1 class="mb-8 text-6xl font-extrabold text-center">Sponsors</h1>
   <div class="grid grid-rows-2 mx-4 sm:grid-rows-1 sm:grid-cols-2 max-w-[65rem] sm:m-auto items-center">
