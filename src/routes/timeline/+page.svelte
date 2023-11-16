@@ -8,8 +8,8 @@
 <div class="max-w-[50rem] m-auto">
   <div class="border-l-2 border-dashed border-white flex gap-8 flex-col">
     <Card class="ml-4 grow">
-      <h2 class={titleClasses}>Welcome One Inc!</h2>
-      <h3 class={dateClasses}>November 4, 2023</h3>
+      <h2 class={titleClasses}>Robot Sneak Peek!</h2>
+      <h3 class={dateClasses}>November 16, 2023</h3>
       <p class="mt-2"><a class="underline" target="_blank" href="https://www.youtube.com/watch?v=qbQz5shmp4c">It's here.</a></p>
     </Card>
     <Card class="ml-4 grow">
