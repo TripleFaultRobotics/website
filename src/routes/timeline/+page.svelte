@@ -1,4 +1,5 @@
 <script>
+  import { base } from "$app/paths"
   import Card from "$lib/components/Card.svelte"
   const titleClasses = "before:w-4 before:h-4 before:bg-stone-800 before:border-2 before:rounded-full before:border-orange-300 before:absolute before:-left-[2.61rem] before:top-[6px] relative text-xl font-semibold"
   const dateClasses = "font-medium text-stone-400"
@@ -8,7 +9,13 @@
 <div class="max-w-[50rem] m-auto">
   <div class="border-l-2 border-dashed border-white flex gap-8 flex-col">
     <Card class="ml-4 grow">
-      <h2 class={titleClasses}>Robot Sneak Peek!</h2>
+      <h2 class={titleClasses}>2nd Place Lovelace League</h2>
+      <h3 class={dateClasses}>November 19, 2023</h3>
+      <img src="{base}/lovelace2023_1-recap.png" class="w-96 rounded-md border border-stone-600 mt-2" />
+      <p class="mt-2">Check out the match recaps <a class="underline" href="{base}/matches">here.</a>
+    </Card>
+    <Card class="ml-4 grow">
+      <h2 class={titleClasses}>Robot Sneak Peek</h2>
       <h3 class={dateClasses}>November 16, 2023</h3>
       <p class="mt-2"><a class="underline" target="_blank" href="https://www.youtube.com/watch?v=qbQz5shmp4c">It's here.</a></p>
     </Card>

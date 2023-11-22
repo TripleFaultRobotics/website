@@ -39,7 +39,7 @@
       <li><a href="{base}/contact" class="hover:underline hover:opacity-75"><HoverDecryptText content="CONTACT"/></a></li>
       <li><a href="{base}/resources" class="hover:underline hover:opacity-75"><HoverDecryptText content="RESOURCES"/></a></li>
     </ul>
-    <a class="ml-auto font-mono text-orange-300 hover:underline hover:opacity-75" href="{base}/timeline"><span class="font-bold">NEWS</span><span class="hidden md:inline">: Robot Sneak Peek</span></a>
+    <a class="ml-auto font-mono text-orange-300 hover:underline hover:opacity-75" href="{base}/timeline"><span class="font-bold">NEWS</span><span class="hidden md:inline">: 2nd Place Lovelace!</span></a>
   </nav>
 </header>
 
