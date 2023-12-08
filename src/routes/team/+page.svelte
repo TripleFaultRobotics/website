@@ -50,7 +50,7 @@
       <p class="text-center">Teemo main</p>
     </Card>
     <Card class="w-full">
-      <h3 class="text-xl font-bold text-center">Elana Lutsenko</h3>
+      <h3 class="text-xl font-bold text-center">Elena Lutsenko</h3>
       <h4 class="mb-2 font-medium text-center text-stone-400">Engineer in Training</h4>
     </Card>
   </div>
