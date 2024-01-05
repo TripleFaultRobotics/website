@@ -32,19 +32,19 @@
 </svelte:head>
 
 <header>
-  <nav id="navbar" class="transition-all border flex flex-row py-2 px-4 my-3 mx-4 rounded-lg gap-2  fixed h-16 w-[calc(100%-2rem)] items-center z-50 {atTop ? "border-stone-800/0" : "border-stone-600/75 bg-stone-700/75 backdrop-blur-md"}">
+  <nav id="navbar" class="transition-all border flex flex-row py-2 px-4 my-3 mx-4 rounded-lg gap-2  fixed h-16 w-[calc(100%-2rem)] items-center z-50 {atTop ? "border-stone-800/0" : "border-stone-600/75 bg-stone-700/25 backdrop-blur-md"}">
     <a href="{base}/"><img src="{base}/logo.svg" class="w-12 h-12 hover:opacity-75" alt="Triple Fault Logo"/></a>
-    <ul class="font-mono grid grid-cols-2 grid-rows-2 gap-x-4">
+    <ul class="grid grid-cols-2 grid-rows-2 font-mono gap-x-4">
       <li><a href="{base}/team" class="hover:underline hover:opacity-75"><HoverDecryptText content="TEAM"/></a></li>
       <li><a href="{base}/matches" class="hover:underline hover:opacity-75"><HoverDecryptText content="MATCHES"/></a></li>
       <li><a href="{base}/resources" class="hover:underline hover:opacity-75"><HoverDecryptText content="RESOURCES"/></a></li>
       <li><a href="{base}/contact" class="hover:underline hover:opacity-75"><HoverDecryptText content="CONTACT"/></a></li>
     </ul>
-    <a class="ml-auto font-mono text-orange-300 hover:underline hover:opacity-75" href="{base}/timeline"><span class="font-bold">NEWS</span><span class="hidden md:inline">: 2nd Place Lovelace!</span></a>
+    <a class="ml-auto font-mono text-orange-300 hover:underline hover:opacity-75" href="{base}/timeline"><span class="font-bold">NEWS</span><span class="hidden md:inline">: 1st Place Lovelace!</span></a>
   </nav>
 </header>
 
-<main class="pt-24 mx-4 pb-4">
+<main class="pt-24 pb-4 mx-4">
   <slot />
 </main>
 

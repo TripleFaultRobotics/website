@@ -4,15 +4,20 @@
   const titleClasses = "before:w-4 before:h-4 before:bg-stone-800 before:border-2 before:rounded-full before:border-orange-300 before:absolute before:-left-[2.61rem] before:top-[6px] relative text-xl font-semibold"
   const dateClasses = "font-medium text-stone-400"
 </script>
-<h1 class="text-6xl font-extrabold mb-8 text-center">Timeline</h1>
+<h1 class="mb-8 text-6xl font-extrabold text-center">Timeline</h1>
 
 <div class="max-w-[50rem] m-auto">
-  <div class="border-l-2 border-dashed border-white flex gap-8 flex-col">
+  <div class="flex flex-col gap-8 border-l-2 border-white border-dashed">
     <Card class="ml-4 grow">
-      <h2 class={titleClasses}>2nd Place Lovelace League</h2>
+      <h2 class={titleClasses}>1st Place: Lovelace League Meet 2</h2>
+      <h3 class={dateClasses}>December 17, 2023</h3>
+      <p class="mt-2">Our team won all 6 games we played, ending up first in our league and region.</p>
+    </Card>
+    <Card class="ml-4 grow">
+      <h2 class={titleClasses}>2nd Place: Lovelace League Meet 1</h2>
       <h3 class={dateClasses}>November 19, 2023</h3>
-      <img src="{base}/lovelace2023_1-recap.png" class="w-96 rounded-md border border-stone-600 mt-2" />
-      <p class="mt-2">Check out the match recaps <a class="underline" href="{base}/matches">here.</a>
+      <img src="{base}/lovelace2023_1-recap.png" class="mt-2 border rounded-md w-96 border-stone-600" alt="Recap"/>
+      <p class="mt-2">Check out the match recaps <a class="underline" href="{base}/matches">here.</a></p>
     </Card>
     <Card class="ml-4 grow">
       <h2 class={titleClasses}>Robot Sneak Peek</h2>
@@ -51,10 +56,10 @@
     <Card class="ml-4 grow">
       <h2 class={titleClasses}>Triple Fault was Founded</h2>
       <h3 class={dateClasses}>Dec 2, 2022</h3>
-      <p class="mt-3 text-lg leading-none pl-2 border-l-2 border-stone-100/50">
+      <p class="pl-2 mt-3 text-lg leading-none border-l-2 border-stone-100/50">
         <span class="font-bold">triple fault</span><br  class="mb-1"/>
-        <span class="text-stone-300 text-sm">&sol;ˈtrip(ə)l • fôlt&sol;</span><br class="mb-3"/>
-        <span class="leading-snug text-base">A triple fault is usually a sign that the exception handler called is faulty, or worse, that the whole exception handling in your system is screwed up.</span>
+        <span class="text-sm text-stone-300">&sol;ˈtrip(ə)l • fôlt&sol;</span><br class="mb-3"/>
+        <span class="text-base leading-snug">A triple fault is usually a sign that the exception handler called is faulty, or worse, that the whole exception handling in your system is screwed up.</span>
       </p>
     </Card>
   </div>
