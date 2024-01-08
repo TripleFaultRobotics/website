@@ -33,7 +33,7 @@
     </Canvas>
   </div>
 </div>
-<div class="grid grid-rows-2 gap-4 md:grid-cols-2 md:gap-0">
+<div class="grid grid-rows-2 gap-4 md:grid-rows-1 md:grid-cols-2 md:gap-0">
   <div class="flex flex-col items-center justify-center">
     <h2 class="mb-4 text-6xl">Get the Drop</h2>
     <iframe
