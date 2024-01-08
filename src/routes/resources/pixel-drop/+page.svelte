@@ -12,12 +12,12 @@
 <img
   src={pixelDrop}
   alt="Pixel Drop header"
-  class="max-w-6xl m-auto rounded-md"
+  class="w-full m-auto rounded-md md:max-w-6xl"
 />
 
 <!-- <h1 class="mt-4 font-black text-center text-8xl">Pixel Drop</h1> -->
-<div class="w-full text-6xl h-[75vh] flex items-center">
-  <h2 class="h-fit basis-[150%]">
+<div class="w-full text-6xl h-[75vh] flex flex-col md:flex-row items-center mt-8 md:-mt-16">
+  <h2 class="h-fit md:basis-[150%]">
     An elegant purple pixel deposit system from Triple Fault.
   </h2>
   <div class="relative top-0 z-10 w-full h-full">
@@ -33,7 +33,7 @@
     </Canvas>
   </div>
 </div>
-<div class="grid grid-cols-2">
+<div class="grid grid-rows-2 gap-4 md:grid-cols-2 md:gap-0">
   <div class="flex flex-col items-center justify-center">
     <h2 class="mb-4 text-6xl">Get the Drop</h2>
     <iframe
@@ -48,7 +48,7 @@
       Loading…
     </iframe>
   </div>
-  <div class="flex flex-col justify-between h-full">
+  <div class="flex flex-col h-full md:justify-between">
     <div class="mb-16 text-5xl leading-normal">
       <h2 class="mb-4 text-6xl text-center">Use the Drop</h2>
       <a
@@ -72,6 +72,15 @@
         <img src={dropW} class="rounded-md" />
       </div>
     </div>
+  </div>
+</div>
+<div class="mt-16 text-5xl md:mx-32 md:text-6xl">
+  <h3 class="text-center ">Credits</h3>
+  <div class="flex justify-between">
+    <span>Ryan Yuan</span><span class="text-neutral-300">Design</span>
+  </div>
+  <div class="flex justify-between">
+    <span>Aiden Shi</span><span class="text-neutral-300">Website</span>
   </div>
 </div>
 

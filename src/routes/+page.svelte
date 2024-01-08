@@ -37,26 +37,25 @@
   <h1
     class="text-7xl text-center sm:text-[7rem] md:text-left md:text-[20vh] lg:text-[31vh] md:leading-[0.9] font-extrabold col-start-1 row-start-1 select-none"
   >
-    <span class="inline-block opacity-0 hero-text w-full">Triple</span><br />
-    <span class="relative z-20 inline-block italic opacity-0 hero-text w-full">Fault</span><br />
-    <span class="inline-block opacity-0 hero-text w-full">Robotics</span>
+    <span class="inline-block w-full opacity-0 hero-text">Triple</span><br />
+    <span class="relative z-20 inline-block w-full italic opacity-0 hero-text">Fault</span><br />
+    <span class="inline-block w-full opacity-0 hero-text">Robotics</span>
   </h1>
   <img src="{base}/23251.svg" id="team-num" class="col-start-1 row-start-1 min-h-[calc(100vh-6rem)] opacity-10 self-end -z-20 justify-self-end" alt="Triple Fault Logo"/>
 </div>
 <section class="mt-16">
   <h2 class="text-5xl md:text-7xl lg:text-8xl [text-wrap:balance]">We're a 
     <span class="italic">passionate</span> 
-    <a href="/team" class="hover:underline text-orange-200">team of makers</a> from 
-    <a class="hover:underline text-orange-200" target="_blank" href="https://maps.app.goo.gl/wppixHc8DqTZcEc2A">San Diego</a>.
+    <a href="/team" class="text-orange-200 hover:underline">team of makers</a> from 
+    <a class="text-orange-200 hover:underline" target="_blank" href="https://maps.app.goo.gl/wppixHc8DqTZcEc2A">San Diego</a>.
   </h2>
-  <a class="text-xl lg:text-2xl mt-4 hover:underline hover:translate-x-4 transition block w-fit" href="/resources">
+  <a class="block mt-4 text-xl transition lg:text-2xl hover:underline hover:translate-x-4 w-fit" href="/resources">
     <MoveRight class="inline mr-2" />Check out our free resources for FTC
   </a>
-  <a class="text-xl lg:text-2xl mt-2 hover:underline hover:translate-x-4 transition block w-fit" href="mailto:team@3fault.com">
-    <MoveRight class="inline mr-2" />Contact us at <span class="font-mono bg-orange-200/20 rounded px-1">team@3fault.com</span>
+  <a class="block mt-2 text-xl transition lg:text-2xl hover:underline hover:translate-x-4 w-fit" href="mailto:team@3fault.com">
+    <MoveRight class="inline mr-2" />Contact us at <span class="px-1 font-mono rounded bg-orange-200/20">team@3fault.com</span>
   </a>
 </section>
-<iframe class="w-full aspect-[1280/548] mt-8" src="https://www.youtube-nocookie.com/embed/qbQz5shmp4c?si=RiGhRH4v4pNKdrD1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 <section class="mt-8">
   <h1 class="mb-8 text-6xl font-extrabold text-center">Sponsors</h1>
   <div class="grid grid-rows-2 mx-4 sm:grid-rows-1 sm:grid-cols-2 max-w-[65rem] sm:m-auto items-center">
