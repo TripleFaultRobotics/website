@@ -1,0 +1,85 @@
+{
+  "asset": {
+    "version": "2.0",
+    "generator": "Open Asset Import Library (assimp v5.2.cf7d3637)"
+  },
+  "extensionsUsed": ["KHR_materials_volume", "FB_ngon_encoding"],
+  "accessors": [
+    {
+      "bufferView": 0,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 120498,
+      "type": "VEC3",
+      "max": [0.03721693530678749, 0.023022839799523355, 0.014957643114030362],
+      "min": [
+        -0.024036264047026635, -0.03191283345222473, -0.015612110495567322
+      ]
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 0,
+      "componentType": 5125,
+      "count": 120498,
+      "type": "SCALAR",
+      "max": [120497],
+      "min": [0]
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 1927968,
+      "uri": "PixelDrop.bin"
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 1445976,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 1445976,
+      "byteLength": 481992,
+      "target": 34963
+    }
+  ],
+  "materials": [
+    {
+      "name": "material",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [0.6523701054108211, 0.42590528570714575, 0.8277257944550337, 1.0],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.0
+      },
+      "doubleSided": true
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "mode": 4,
+          "material": 0,
+          "indices": 1,
+          "attributes": {
+            "POSITION": 0
+          }
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0
+    }
+  ],
+  "scenes": [
+    {
+      "nodes": [0]
+    }
+  ],
+  "scene": 0
+}

@@ -11,7 +11,7 @@
     <Card class="ml-4 grow">
       <h2 class={titleClasses}>1st Place: Lovelace League Meet 2</h2>
       <h3 class={dateClasses}>December 17, 2023</h3>
-      <p class="mt-2">Our team won all 6 games we played, ending up first in our league and region.</p>
+      <p class="mt-2">Our team won all 6 games we played, ending up first in our league.</p>
     </Card>
     <Card class="ml-4 grow">
       <h2 class={titleClasses}>2nd Place: Lovelace League Meet 1</h2>

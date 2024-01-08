@@ -28,7 +28,12 @@
   "dependencies": {
     "@studio-freight/lenis": "^1.0.19",
     "@tailwindcss/typography": "^0.5.10",
+    "@threlte/core": "^7.0.12",
+    "@threlte/extras": "^8.1.1",
+    "@types/three": "^0.160.0",
     "lucide-svelte": "^0.279.0",
-    "motion": "^10.16.2"
+    "motion": "^10.16.2",
+    "shiki": "^0.14.7",
+    "three": "^0.160.0"
   }
 }

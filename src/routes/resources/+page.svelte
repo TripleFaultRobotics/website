@@ -22,7 +22,7 @@
       />
       <h3 class="text-2xl font-bold">Pixel Drop</h3>
       <h4 class="mb-2 font-medium text-stone-400">By: Ryan Yuan</h4>
-      <p>A simple and elegant purple pixel drop design. Coming Soon...</p>
+      <p>A simple and elegant purple pixel drop design.</p>
     </Card>
   </a>
 </div>
