@@ -8,6 +8,9 @@
   import dropW from "./drop-w.jpg";
 </script>
 
+<svelte:head><title>Triple Fault | Pixel Drop</title></svelte:head>
+
+
 <div class="fixed w-full h-full -z-50 bg-[#231124] top-0 left-0"></div>
 <img
   src={pixelDrop}

@@ -21,6 +21,8 @@
   });
 </script>
 
+<svelte:head><title>Triple Fault | Pixel Drop | Documentation</title></svelte:head>
+
 <div class="fixed w-full h-full -z-20 bg-[#231124] top-0 left-0"></div>
 <div class="flex max-w-5xl gap-8 m-auto">
   <div
@@ -120,6 +122,8 @@ public class PixelDropSample extends LinearOpMode {
 }
 `}
       />
+      <h2 id="troubleshooting">Troubleshooting</h2>
+      <p>The rubber band inside will snap sometimes. If it fails to drop the pixel, make sure to check the rubber band inside.</p>
       <!-- We hope this has helped your team and we wish you the best of luck
         this season! -->
     </div>
@@ -129,5 +133,9 @@ public class PixelDropSample extends LinearOpMode {
 <style>
   img {
     @apply rounded-md;
+  }
+
+  caption {
+    @apply block text-center;
   }
 </style>

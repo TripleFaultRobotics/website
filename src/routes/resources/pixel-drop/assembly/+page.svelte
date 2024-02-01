@@ -24,6 +24,9 @@
   });
 </script>
 
+<svelte:head><title>Triple Fault | Pixel Drop | Assembly</title></svelte:head>
+
+
 <div class="fixed w-full h-full -z-20 bg-[#231124] top-0 left-0"></div>
 <div class="flex max-w-5xl gap-8 m-auto">
   <div

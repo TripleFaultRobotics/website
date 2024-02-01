@@ -2,6 +2,9 @@
   import Card from "$lib/components/Card.svelte";
   import { Mail, Globe2 } from "lucide-svelte"
 </script>
+
+<svelte:head><title>Triple Fault | Contact</title></svelte:head>
+
 <h1 class="mb-8 text-6xl font-extrabold text-center">Contact</h1>
 <div class="max-w-[85ch] m-auto">
   <h3 class="text-xl font-bold"><Mail class="inline mr-1" size={20} strokeWidth={2.5} />Email: 

@@ -2,6 +2,8 @@
   import Card from "$lib/components/Card.svelte";
 </script>
 
+<svelte:head><title>Triple Fault | Our Team</title></svelte:head>
+
 <h1 class="mb-8 text-6xl font-extrabold text-center">Our Team</h1>
 <div
   class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 max-w-[72rem] lg:mx-auto"

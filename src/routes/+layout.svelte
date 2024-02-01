@@ -25,10 +25,6 @@
 />
 <svelte:head>
   <!-- Google tag (gtag.js) -->
-  <!-- Google tag (gtag.js) -->
-  <!-- Google tag (gtag.js) -->
-  <!-- Google tag (gtag.js) -->
-  <!-- Google tag (gtag.js) -->
   <script
     async
     src="https://www.googletagmanager.com/gtag/js?id=G-KG2ETJKJEL"
@@ -84,7 +80,7 @@
       class="ml-auto font-mono text-orange-300 hover:underline hover:opacity-75"
       href="{base}/timeline"
       ><span class="font-bold">NEWS</span><span class="hidden md:inline"
-        >: 1st Place Lovelace!</span
+        >: 2 + 4</span
       ></a
     >
   </nav>

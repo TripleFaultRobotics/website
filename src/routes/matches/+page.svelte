@@ -266,12 +266,13 @@
     }
   ]
 </script>
+<svelte:head><title>Triple Fault | Matches</title></svelte:head>
 
 <h1 class="mb-8 text-6xl font-extrabold text-center">Matches</h1>
-<h1 class="text-6xl mb-8 font-medium text-center">Lovelace Meet #1</h1>
+<h1 class="mb-8 text-6xl font-medium text-center">Lovelace Meet #1</h1>
 {#each lovelace2023_1 as match} 
   <div>
-    <h1 class="text-4xl mb-2 text-center text-stone-400">{match.name}</h1>
+    <h1 class="mb-2 text-4xl text-center text-stone-400">{match.name}</h1>
     <Recap match={match} class="mb-16"/>
   </div>
 {/each}
