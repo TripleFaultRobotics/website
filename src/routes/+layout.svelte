@@ -60,11 +60,11 @@
           ><HoverDecryptText content="TEAM" /></a
         >
       </li>
-      <li>
+      <!-- <li>
         <a href="{base}/matches" class="hover:underline hover:opacity-75"
           ><HoverDecryptText content="MATCHES" /></a
         >
-      </li>
+      </li> -->
       <li>
         <a href="{base}/resources" class="hover:underline hover:opacity-75"
           ><HoverDecryptText content="RESOURCES" /></a
@@ -80,7 +80,7 @@
       class="ml-auto font-mono text-orange-300 hover:underline hover:opacity-75"
       href="{base}/timeline"
       ><span class="font-bold">NEWS</span><span class="hidden md:inline"
-        >: 2 + 4</span
+        >: INTO THE DEEP!</span
       ></a
     >
   </nav>

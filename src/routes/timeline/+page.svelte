@@ -13,6 +13,21 @@
 <div class="max-w-[50rem] m-auto">
   <div class="flex flex-col gap-8 border-l-2 border-white border-dashed">
     <Card class="ml-4 grow">
+      <h2 class={titleClasses}>Hello, INTO THE DEEP!</h2>
+      <h3 class={dateClasses}>September 7, 2024</h3>
+      <p class="my-2">We welcome the new season, INTO THE DEEP!</p>
+    </Card>
+    <Card class="ml-4 grow">
+      <h2 class={titleClasses}>Goodbye, CENTERSTAGE!</h2>
+      <h3 class={dateClasses}>April 15, 2024</h3>
+      <p class="my-2">Finishing 103rd worldwide by OPR, in the top 5%, we are happy and excited for the next season!</p>
+    </Card>
+    <Card class="ml-4 grow">
+      <h2 class={titleClasses}>Interleague Alliance Captain</h2>
+      <h3 class={dateClasses}>March 3, 2024</h3>
+      <p class="my-2">Finishing 4th in qualifications, we became 3rd alliance captain at interleagues, and won the design award for our climber!</p>
+    </Card>
+    <Card class="ml-4 grow">
       <h2 class={titleClasses}>2 + 4</h2>
       <h3 class={dateClasses}>January 14, 2024</h3>
       <p class="my-2">We unveiled our 2 + 4 for League Meet 3.</p>
