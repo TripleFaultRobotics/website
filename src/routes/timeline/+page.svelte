@@ -20,7 +20,7 @@
     <Card class="ml-4 grow">
       <h2 class={titleClasses}>Goodbye, CENTERSTAGE!</h2>
       <h3 class={dateClasses}>April 15, 2024</h3>
-      <p class="my-2">Finishing 103rd worldwide by OPR, in the top 5%, we are happy and excited for the next season!</p>
+      <p class="my-2">Finishing 103rd worldwide by OPR, in the top 1.4%, we are happy and excited for the next season!</p>
     </Card>
     <Card class="ml-4 grow">
       <h2 class={titleClasses}>Interleague Alliance Captain</h2>

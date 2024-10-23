@@ -42,7 +42,7 @@
     <Card class="w-full">
       <h3 class="text-xl font-bold text-center">Sean Kuo</h3>
       <h4 class="mb-2 font-medium text-center text-stone-400">
-        Co-Head of Hardware
+        Head of Design
       </h4>
       <p class="text-center">
         Sean is an 12th grader at CCA and has a passion for robotics. He has two
@@ -54,11 +54,17 @@
     <Card class="w-full">
       <h3 class="text-xl font-bold text-center">Sang Park</h3>
       <h4 class="mb-2 font-medium text-center text-stone-400">
-        Member
+        Head of Hardware
       </h4>
       <p class="text-center">
         12th Grader
       </p>
+    </Card>
+    <Card class="w-full">
+      <h3 class="text-xl font-bold text-center">Miles Krawitz</h3>
+      <h4 class="mb-2 font-medium text-center text-stone-400">
+        Head of Mechanical
+      </h4>
     </Card>
   </div>
   <div class="grid gap-2 h-fit">
@@ -77,7 +83,7 @@
     <Card class="w-full">
       <h3 class="text-xl font-bold text-center">Owen Kwan</h3>
       <h4 class="mb-2 font-medium text-center text-stone-400">
-        Head of AI Systems
+        Head of AI/ML
       </h4>
       <p class="text-center">Teemo main</p>
     </Card>
