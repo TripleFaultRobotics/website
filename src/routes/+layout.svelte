@@ -80,7 +80,7 @@
       class="ml-auto font-mono text-orange-300 hover:underline hover:opacity-75"
       href="{base}/timeline"
       ><span class="font-bold">NEWS</span><span class="hidden md:inline"
-        >: INTO THE DEEP!</span
+        >: That's all folks!</span
       ></a
     >
   </nav>

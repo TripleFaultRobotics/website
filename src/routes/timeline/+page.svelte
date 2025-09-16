@@ -13,19 +13,78 @@
 <div class="max-w-[50rem] m-auto">
   <div class="flex flex-col gap-8 border-l-2 border-white border-dashed">
     <Card class="ml-4 grow">
+      <h2 class={titleClasses}>That's all folks!</h2>
+      <h3 class={dateClasses}>April 19, 2025</h3>
+      <p class="mt-2">
+        Our season ended at worlds with 17th highest OPR overall, 10th highest
+        OPR at worlds, and 2nd highest in our division. We also made it to the
+        playoffs with our alliance partners 3747 The Hive & 16413 Lo-Ellen
+        Robotics.
+      </p>
+      <p class="mt-2">
+        Triple Fault is now disbanded.
+      </p>
+    </Card>
+    <Card class="ml-4 grow">
+      <h2 class={titleClasses}>Off to Worlds!</h2>
+      <h3 class={dateClasses}>March 16, 2025</h3>
+      <p class="mt-2">
+        Our team qualified for worlds in Houston. See you all there!
+      </p>
+      <img
+        src="{base}/to_worlds_2025.jpg"
+        class="object-cover mt-2 border rounded-md border-stone-600"
+        alt="1"
+      />
+    </Card>
+    <Card class="ml-4 grow">
+      <h2 class={titleClasses}>Regionals Winning Alliance!</h2>
+      <h3 class={dateClasses}>March 16, 2025</h3>
+      <p class="mt-2">
+        Our team won the Innovate 2nd place award along with the regionals
+        playoffs with our teammate Definitely Human. Thank you Definitely Human
+        for being an incredible alliance partner and we look forward to seeing
+        you at worlds.
+      </p>
+      <img
+        src="{base}/regionals_2025.jpg"
+        class="object-cover mt-2 border rounded-md border-stone-600"
+        alt="1"
+      />
+    </Card>
+    <Card class="ml-4 grow">
+      <h2 class={titleClasses}>2nd place at Interleagues</h2>
+      <h3 class={dateClasses}>Febuary 16, 2025</h3>
+      <p class="mt-2">
+        We got 2nd place at the Euclid Interleagues winning the Connect Award,
+        advancing to regionals. We also won the playoffs with Definitely Human!
+      </p>
+      <img
+        src="{base}/euclid_2025.jpg"
+        class="object-cover mt-2 border rounded-md border-stone-600"
+        alt="1"
+      />
+    </Card>
+    <Card class="ml-4 grow">
       <h2 class={titleClasses}>Hello, INTO THE DEEP!</h2>
       <h3 class={dateClasses}>September 7, 2024</h3>
-      <p class="my-2">We welcome the new season, INTO THE DEEP!</p>
+      <p class="mt-2">We welcome the new season, INTO THE DEEP!</p>
     </Card>
     <Card class="ml-4 grow">
       <h2 class={titleClasses}>Goodbye, CENTERSTAGE!</h2>
       <h3 class={dateClasses}>April 15, 2024</h3>
-      <p class="my-2">Finishing 103rd worldwide by OPR, in the top 1.4%, we are happy and excited for the next season!</p>
+      <p class="mt-2">
+        Finishing 103rd worldwide by OPR, in the top 1.4%, we are happy and
+        excited for the next season!
+      </p>
     </Card>
     <Card class="ml-4 grow">
       <h2 class={titleClasses}>Interleague Alliance Captain</h2>
       <h3 class={dateClasses}>March 3, 2024</h3>
-      <p class="my-2">Finishing 4th in qualifications, we became 3rd alliance captain at interleagues, and won the design award for our climber!</p>
+      <p class="mt-2">
+        Finishing 4th in qualifications, we became 3rd alliance captain at
+        interleagues, and won the design award for our climber!
+      </p>
     </Card>
     <Card class="ml-4 grow">
       <h2 class={titleClasses}>2 + 4</h2>
@@ -41,7 +100,10 @@
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         allowfullscreen
       ></iframe>
-      <a href="https://www.youtube.com/watch?v=Jqu6HLafB4k" class="mt-2 underline lg:hidden">Watch here.</a>
+      <a
+        href="https://www.youtube.com/watch?v=Jqu6HLafB4k"
+        class="mt-2 underline lg:hidden">Watch here.</a
+      >
     </Card>
     <Card class="ml-4 grow">
       <h2 class={titleClasses}>Pacific Sky Presentation!</h2>
